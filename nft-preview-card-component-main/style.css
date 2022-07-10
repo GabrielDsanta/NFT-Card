@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    border-radius: 0.5rem;
+    width: 300px;
+}
+
+.conteiner{
+    background: hsl(216, 50%, 16%);
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    margin-top: 9rem;
+    border-radius: 1rem;
+}
+
+.tittle{
+    color: #FFF;
+    font-size: 23px;
+    margin-top: 1rem;
+
+}
+
+.tittle:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.paragrafo{
+    color: hsl(215, 51%, 70%);
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.ETH{
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+
+}
+
+.half{
+    margin-bottom: 1.5rem;
+}
+
+.days-left{
+    color: hsl(215, 51%, 70%);
+    margin-left: 7rem;
+}
+
+.linha{
+    border: solid 1px hsl(215, 32%, 27%);
+    margin-top: 1.5rem;
+}
+
+.avatar{
+    width: 32px;
+    border: solid 1px #FFF;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.button{
+    background-color: none;
+    background: none;
+    text-decoration: none;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.flexbox{
+    display: inline-block;
+}
+
+
+.button:hover{
+
+}
+
+.span{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
